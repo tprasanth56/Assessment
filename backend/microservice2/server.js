@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 const amqp = require('amqplib');
 
-const port = 3002;
+const port = 5001;
 
 // Middleware
 app.use(cors());
